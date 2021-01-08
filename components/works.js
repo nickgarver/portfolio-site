@@ -19,7 +19,7 @@ export default class MyWorks extends Component {
   render() {
     return (
       <div className="my-container">
-        <h2>Works</h2>
+        <h2>Current Works</h2>
         <div className="grid">
 
           <div className="card" onClick={ () => this.setState({activeOne: !this.state.activeOne}) }>
@@ -29,7 +29,7 @@ export default class MyWorks extends Component {
                 <span>Melody App</span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
-              <p>Audio app created to be better way to find loops. Contributed to database.</p>
+              <p>Audio app created as a better way to find loops. Contributed to database.</p>
             </div>
           </div>
 

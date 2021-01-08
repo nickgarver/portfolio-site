@@ -3,7 +3,9 @@
   --darkText: #1e272e;
   --buttonBG: #ffdd59;
   --purple: #5f27cd;
-  --offWhite: var(--offWhite);
+  --offWhite: #f5f6fa;
+  --gray: #f3f4f4;
+  --white: #fff;
 }
 
 html,
@@ -14,7 +16,7 @@ body {
   line-height: 1.6;
   font-size: 18px;
   color: var(--darkText);
-  background: var(--offWhite);  /* fallback for old browsers */
+  background: var(--white);
   text-decoration: none;
 }
 
@@ -49,9 +51,9 @@ main{
 .my-container {
   max-width: 800px;
   padding: 1rem;
-  background: var(--offWhite);
+  /* background: var(--offWhite);
   border-radius: 50px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
 
 }
 
@@ -61,18 +63,17 @@ main{
 }
 
 .head{
+  z-index: 4;
   position: relative;
   height: auto;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 1rem;
-  /* max-width: 800px; */
   height: 4rem;
-  background: var(--offWhite);
-  /* border-radius: 50px; */
   padding-left: 1rem;
   padding-right: 1rem;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-shadow: inset 0px -1px 0px var(--gray);
+  box-shadow: inset 0px -1px 0px var(--gray);
 }
 
 .head-left{
@@ -228,6 +229,7 @@ img {
   color: var(--darkText);
   overflow: hidden;
   cursor: pointer;
+  background: var(--offWhite);
 }
 
 .card-info > a {
@@ -375,6 +377,15 @@ code {
   .pressbio{
     padding-left: 1rem;
   }
+  .card-info > p {
+    margin: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0rem;
+  }
+  .card-info > a {
+    margin: 1rem;
+  }
+
   .top-txt {
     display: none;
   }

@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       <div className='head'>
           <div className='head-left'>
-              <Link href="/"> Portfolio of Nick Garver </Link>
+              <Link href="/"> Nick Garver </Link>
           </div>
 
           <div className='head-right'>
