@@ -51,7 +51,7 @@ export default class MyWorks extends Component {
                 <span>Mp3-to Anime</span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
-              <p>React app that converts an mp3 to a fun video. Intended to increase engagement. Still in progress.</p>
+              <p>React app that converts an mp3 to a fun video. Intended to increase engagement. Work in progress.</p>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ export default class MyWorks extends Component {
           <div className="card" onClick={ () => this.setState({activeSeven: !this.state.activeSeven}) }>
             <img src ="https://i.imgur.com/rwPvcgh.jpg" />
             <div className={`card-info ${this.state.activeSeven ? "activate" : ""}`}>
-              <a href="https://nicholasgarden.com/lastboy/index.html" >
+              <a href="https://github.com/nickgarver/lastboy" >
                 <span>Lastboy</span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
@@ -102,8 +102,8 @@ export default class MyWorks extends Component {
           <div className="card" onClick={ () => this.setState({activeEight: !this.state.activeEight}) }>
             <img src ="https://i.imgur.com/fRBQca1.jpg" />
             <div className={`card-info ${this.state.activeEight ? "activate" : ""}`}>
-              <a href="https://nicholasgarden.com/tiktaktoe/index.html" >
-                <span>Tik-Tak-Toe</span>
+              <a href="https://codepen.io/islandboyluna/pen/mKwbBd" >
+                <span>Tic-Tac-Toe</span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
               <p> Simple game built for school project. </p>
