@@ -62,7 +62,7 @@ export default class MyWorks extends Component {
                 <span>Always </span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
-              <p>Next gen educational platfrom. I implimented an adaptive stream video player.</p>
+              <p>Next gen educational platfrom. I implemented an adaptive stream video player.</p>
             </div>
           </div>
 
