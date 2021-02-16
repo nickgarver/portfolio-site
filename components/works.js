@@ -25,11 +25,22 @@ export default class MyWorks extends Component {
           <div className="card" onClick={ () => this.setState({activeOne: !this.state.activeOne}) }>
             <img className="card-img" src ="https://i.imgur.com/sXKbjpU.png" />
             <div className={`card-info ${this.state.activeOne ? "activate" : ""}`}>
-              <a href="https://www.dev.themelodyapp.com/" >
+              <a href="https://themelodyapp.com/" >
                 <span>Melody App</span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
               <p>Audio app created as a better way to find loops. Contributed to database.</p>
+            </div>
+          </div>
+
+          <div className="card" onClick={ () => this.setState({activeThree: !this.state.activeThree}) }>
+            <img src ="https://i.imgur.com/IWc9VdF.png" />
+            <div className={`card-info ${this.state.activeThree ? "activate" : ""}`}>
+              <a href="https://mp3ani.me" >
+                <span>Mp3-to Anime</span>
+                <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
+              </a>
+              <p>Full stack app hosted on digitalocean that converts an mp3 to a music video. Roughly 100 daily users.</p>
             </div>
           </div>
 
@@ -41,17 +52,6 @@ export default class MyWorks extends Component {
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
               <p>Capstone project built with an Angular, Docker, and MongoDB stack.</p>
-            </div>
-          </div>
-
-          <div className="card" onClick={ () => this.setState({activeThree: !this.state.activeThree}) }>
-            <img src ="https://i.imgur.com/IWc9VdF.png" />
-            <div className={`card-info ${this.state.activeThree ? "activate" : ""}`}>
-              <a href="https://github.com/nickgarver/mp3toanime" >
-                <span>Mp3-to Anime</span>
-                <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
-              </a>
-              <p>React app that converts an mp3 to a fun video. Intended to increase engagement. Work in progress.</p>
             </div>
           </div>
 
