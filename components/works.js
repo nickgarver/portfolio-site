@@ -36,7 +36,7 @@ export default class MyWorks extends Component {
           <div className="card" onClick={ () => this.setState({activeFive: !this.state.activeFive}) }>
             <img src ="https://i.imgur.com/rFRgzUZ.png" />
             <div className={`card-info ${this.state.activeFive ? "activate" : ""}`}>
-              <a href="https://internetboy.world" >
+              <a href="https://iboy.world" >
                 <span>internetboy</span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
