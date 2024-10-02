@@ -22,6 +22,28 @@ export default class MyWorks extends Component {
         <h2>Current Works</h2>
         <div className="grid">
 
+          <div className="card" onClick={ () => this.setState({activeSix: !this.state.activeSix}) }>
+            <img src ="https://i.imgur.com/JoryhUu.png" />
+            <div className={`card-info ${this.state.activeSix ? "activate" : ""}`}>
+              <a href="https://hivemindtv.com" >
+                <span>Hivemind</span>
+                <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
+              </a>
+              <p> Ecommerce site for a popculture youtube channel with 400k subs. </p>
+            </div>
+          </div>
+
+          <div className="card" onClick={ () => this.setState({activeFive: !this.state.activeFive}) }>
+            <img src ="https://i.imgur.com/rFRgzUZ.png" />
+            <div className={`card-info ${this.state.activeFive ? "activate" : ""}`}>
+              <a href="https://internetboy.world" >
+                <span>internetboy</span>
+                <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
+              </a>
+              <p> Ecommerce site for my personal music project, 'internetboy'. </p>
+            </div>
+          </div>
+        
           <div className="card" onClick={ () => this.setState({activeOne: !this.state.activeOne}) }>
             <img className="card-img" src ="https://i.imgur.com/sXKbjpU.png" />
             <div className={`card-info ${this.state.activeOne ? "activate" : ""}`}>
@@ -36,11 +58,11 @@ export default class MyWorks extends Component {
           <div className="card" onClick={ () => this.setState({activeThree: !this.state.activeThree}) }>
             <img src ="https://i.imgur.com/IWc9VdF.png" />
             <div className={`card-info ${this.state.activeThree ? "activate" : ""}`}>
-              <a href="https://mp3ani.me" >
+              <a href="https://github.com/nickgarver/mp3animeocean" >
                 <span>Mp3-to Anime</span>
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
-              <p>Full stack app hosted on digitalocean that converts an mp3 to a music video. Roughly 100 daily users.</p>
+              <p>Full stack app hosted on digitalocean that converts an mp3 file to a music video. Roughly 100 daily users.</p>
             </div>
           </div>
 
@@ -63,28 +85,6 @@ export default class MyWorks extends Component {
                 <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
               </a>
               <p>Next gen educational platfrom. I implemented an adaptive stream video player.</p>
-            </div>
-          </div>
-
-          <div className="card" onClick={ () => this.setState({activeFive: !this.state.activeFive}) }>
-            <img src ="https://i.imgur.com/rFRgzUZ.png" />
-            <div className={`card-info ${this.state.activeFive ? "activate" : ""}`}>
-              <a href="https://internetboy.world" >
-                <span>internetboy</span>
-                <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
-              </a>
-              <p> Ecommerce site for my music project, 'internetboy'. </p>
-            </div>
-          </div>
-
-          <div className="card" onClick={ () => this.setState({activeSix: !this.state.activeSix}) }>
-            <img src ="https://i.imgur.com/JoryhUu.png" />
-            <div className={`card-info ${this.state.activeSix ? "activate" : ""}`}>
-              <a href="https://hivemindtv.com" >
-                <span>Hivemind</span>
-                <FontAwesomeIcon className="card-icn" icon={faChevronRight} />
-              </a>
-              <p> Ecommerce site for a popculture youtube channel. </p>
             </div>
           </div>
 
