@@ -12,10 +12,8 @@ export default function About(){
         <p className="pressbio" >
         Hello! I am Nick, an IT graduate at the University of Cincinnati.
         I am always seeking new opportunities to learn, collaborate,
-        and explore. Currently I have been doing freelance web design
-        and working for 'Hivemind' to stay up to date with current practices. 
-        Living in Detroit I also do part time cultivation for a Cannabis company; 
-        I am always learing about the ever growing cannabis industry.
+        and explore. Currently I have been doing web design 
+        working for 'Hivemind LLC' to stay up to date with current practices. 
         Feel free to reach out with any questions about
         my work, experiences, or just to chat.
         </p>
