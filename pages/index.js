@@ -59,7 +59,6 @@ export default function Home() {
           </div>
           <div className="socials">
             <a href="https://github.com/nickgarver" ><FontAwesomeIcon className="socials-icn" icon={faGithubAlt} /></a>
-            <a href="https://twitter.com/internetboy999" ><FontAwesomeIcon className="socials-icn" icon={faTwitter} /></a>
             <a href="https://instagram.com/internetboy" ><FontAwesomeIcon className="socials-icn" icon={faInstagram} /></a>
           </div>
       </footer>
